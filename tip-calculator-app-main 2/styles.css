@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(185, 41%, 84%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: hsl(183, 100%, 15%);
+}
+
+#wrapper {
+  width: 720px;
+  height: 350px;
+  border-radius: 15px;
+  background: hsl(0, 0%, 100%);
+}
+
+#main {
+  display: flex;
+}
+
+.section-a {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+.section-b {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.input-bill {
+  background: hsl(189, 41%, 97%);
+  padding: 5px 20px;
+}
+
+.input-bill input {
+  border: none;
+  background: hsl(189, 41%, 97%);
+}
+
+.input-people {
+  background: hsl(189, 41%, 97%);
+  padding: 5px 20px;
+}
+
+.input-people input {
+  border: none;
+  background: hsl(189, 41%, 97%);
+}
+
+.tip-a button,
+.tip-b button {
+  width: 80px;
+  background: hsl(183, 100%, 15%);
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.tip-a button:hover,
+.tip-b button:hover,
+.tip-a button:active,
+.tip-b button:active {
+  color: hsl(183, 100%, 15%);
+  background: hsl(189, 41%, 97%);
+  border: 1px solid hsl(183, 100%, 15%);
+}
+
+#header-text {
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 10px;
+}
+
+.section-container {
+  background: hsl(183, 100%, 15%);
+  height: 100%;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-b1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-b1-a,
+.section-b1-b {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#header-2 {
+  font-size: 16px;
+  color: hsl(185, 41%, 84%);
+}
+#header-3 {
+  font-size: 12px;
+  color: hsl(184, 14%, 56%);
+  font-weight: 400;
+}
+
+#number {
+  color: hsl(172, 67%, 45%);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#reset {
+  width: 100%;
+  /* width: 80px; */
+  background: hsl(183, 69%, 21%);
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#reset:hover,
+#reset:active {
+  color: hsl(172, 67%, 45%);
+  background: hsl(183, 100%, 15%);
+  border: 1px solid hsl(172, 67%, 45%);
+}
